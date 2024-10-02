@@ -45,6 +45,11 @@ section > h4 {
   line-height: 0;
 }
 
+.menus > p {
+  margin-top: 5rem;
+  margin-left: 1.5rem;
+}
+
 .flex {
   display: flex;
   align-items: center;
@@ -52,9 +57,9 @@ section > h4 {
 }
 
 .flex > img {
-  width: 18px;
-  height: 18px;
-  object-fit: fill;
+  width: 16px;
+  height: 16px;
+  object-fit: cover ;
 }
 
 .flex > p {
