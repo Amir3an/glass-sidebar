@@ -7,7 +7,7 @@ body {
   padding: 0;
   background: url("./img/win11\(1\).jpg") no-repeat center center;
   object-fit: fill;
-  font-family: "Franklin Gothic Medium";
+  font-family: "Franklin Gothic";
 }
 
 aside {
@@ -21,7 +21,7 @@ aside {
   backdrop-filter: blur(10px);
 }
 
-aside img {
+aside > img {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -33,7 +33,6 @@ aside img {
 section {
   margin-top: 2.5rem;
   margin-left: 5rem;
-  line-height: 0;
 }
 
 section > h6 {
@@ -41,7 +40,23 @@ section > h6 {
   line-height: 0;
 }
 
-section h4 {
+section > h4 {
   font-weight: 600;
   line-height: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+
+.flex > img {
+  width: 18px;
+  height: 18px;
+  object-fit: fill;
+}
+
+.flex > p {
+  margin-left: 1rem;
 }
