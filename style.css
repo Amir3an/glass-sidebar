@@ -3,14 +3,6 @@
   src: url("./font/Flaunters.otf");
 }
 
-html {
-  @media only screen and (min-width: 1920px) {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-  }
-}
-
 body {
   width: 100%;
   height: 100vh;
@@ -95,4 +87,15 @@ section > h4 {
 
 .skills > p {
   margin-top: 1rem;
+}
+
+
+.changeMode {
+  position: absolute;
+  right: 5%;
+  top : 1rem;
+  width : 60px;
+  height: 25px;
+  border-radius: 1rem;
+  border: none;
 }
