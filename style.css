@@ -8,6 +8,10 @@ body {
   background: url("./img/win11\(1\).jpg") no-repeat center center;
   object-fit: fill;
   font-family: "Franklin Gothic";
+  -webkit-user-select: none; /* Safari, Chrome, Edge */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE, Edge */
+  user-select: none; /* Standard syntax */
 }
 
 aside {
