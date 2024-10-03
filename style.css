@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   background: url("./img/win11.jfif") no-repeat center center;
+  transition: background 1s;
   object-fit: fill;
   font-family: Flaunters;
   -webkit-user-select: none; /* Safari, Chrome, Edge */
@@ -82,6 +83,7 @@ section > h4 {
 }
 
 .flex > p {
+  cursor: pointer;
   margin-left: 1rem;
 }
 
@@ -125,7 +127,7 @@ section > h4 {
   right: 0;
   bottom: 0;
   background-color: #f4f4f5;
-  transition: 0.4s;
+  transition: 1s;
   border-radius: 30px;
 }
 
