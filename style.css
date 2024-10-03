@@ -10,7 +10,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 0;
-  background: url("./img/win11\(1\).jpg") no-repeat center center;
+  background: url("./img/win11.jfif") no-repeat center center;
   object-fit: fill;
   font-family: Flaunters;
   -webkit-user-select: none; /* Safari, Chrome, Edge */
@@ -54,9 +54,10 @@ section > h4 {
   line-height: 0;
 }
 
-.menus > p {
+.menus > p , .skills > p {
   margin-top: 5rem;
   margin-left: 1.2rem;
+  font-size : 0.8rem;
 }
 
 .flex {
@@ -76,6 +77,5 @@ section > h4 {
 }
 
 .skills > p {
-  font-weight: 100;
-  margin-left: 1.2rem;
+  margin-top: 1rem;
 }
