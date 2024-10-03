@@ -12,7 +12,7 @@ body {
 
 aside {
   width: 240px;
-  height: 660px;
+  height: auto;
   border-radius: 1.5rem;
   margin-top: 2.5rem;
   border: 2px solid rgba(255, 255, 255, 0.38);
