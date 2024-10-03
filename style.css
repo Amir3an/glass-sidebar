@@ -12,7 +12,7 @@ body {
 
 aside {
   width: 240px;
-  height: auto;
+  height: 750px;
   border-radius: 1.5rem;
   margin-top: 2.5rem;
   border: 2px solid rgba(255, 255, 255, 0.38);
@@ -47,7 +47,7 @@ section > h4 {
 
 .menus > p {
   margin-top: 5rem;
-  margin-left: 1.5rem;
+  margin-left: 1.2rem;
 }
 
 .flex {
@@ -59,9 +59,14 @@ section > h4 {
 .flex > img {
   width: 16px;
   height: 16px;
-  object-fit: cover ;
+  object-fit: cover;
 }
 
 .flex > p {
   margin-left: 1rem;
+}
+
+.skills > p {
+  font-weight: 100;
+  margin-left: 1.2rem;
 }
