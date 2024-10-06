@@ -25,11 +25,13 @@ aside {
   width: 240px;
   height: 750px;
   border-radius: 1.5rem;
+  transition: width 0.7s;
   margin-top: 2.5rem;
   border: 1px solid rgba(255, 255, 255, 0.38);
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
 aside > img {
@@ -42,6 +44,7 @@ aside > img {
 }
 
 section {
+  transition: transform 1s, opacity 0.7s;
   margin-top: 2.5rem;
   margin-left: 5rem;
 }
@@ -64,11 +67,12 @@ section > h4 {
   line-height: 0;
 }
 
-.menus > p,
-.skills > p {
+.menus > h5,
+.skills > h5 {
   margin-top: 5rem;
   margin-left: 1.2rem;
   font-size: 0.8rem;
+  font-weight: 100;
 }
 
 .flex {
@@ -81,14 +85,18 @@ section > h4 {
   width: 16px;
   height: 16px;
   object-fit: cover;
+  margin-top: 7px;
 }
 
 .flex > p {
+  transition: transform 1s, opacity 0.7s;
   cursor: pointer;
   margin-left: 1rem;
+  line-height: 0;
+  margin-top: 2rem;
 }
 
-.skills > p {
+.skills > h5 {
   margin-top: 1rem;
 }
 
@@ -159,7 +167,6 @@ input:checked + .slider:before {
 .close {
   float: right;
   margin-top: -2.7rem;
-  background: url("./img/icons/arrow-left.png") no-repeat right center;
   width: 23px;
   height: 33px;
   border-radius: 2rem 0 0 2rem;
