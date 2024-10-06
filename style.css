@@ -26,7 +26,7 @@ aside {
   height: 750px;
   border-radius: 1.5rem;
   margin-top: 2.5rem;
-  border: 2px solid rgba(255, 255, 255, 0.38);
+  border: 1px solid rgba(255, 255, 255, 0.38);
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
@@ -157,8 +157,14 @@ input:checked + .slider:before {
 }
 
 .close {
-  background: url("./img/icons/left-arrow.png") no-repeat center center;
+  float: right;
+  margin-top: -2.7rem;
+  background: url("./img/icons/arrow-left.png") no-repeat right center;
   width: 23px;
-  height: 23px;
+  height: 33px;
+  border-radius: 2rem 0 0 2rem;
+  border: none;
+  background-color: #fff;
   object-fit: fill;
+  cursor: pointer;
 }
