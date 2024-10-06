@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  
+
   padding: 0;
   background: url("./img/win11.jfif") no-repeat center center;
   transition: background 0.4s;
@@ -154,4 +154,11 @@ input:checked + .slider:before {
   background: #303136;
   /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
   box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+}
+
+.close {
+  background: url("./img/icons/left-arrow.png") no-repeat center center;
+  width: 23px;
+  height: 23px;
+  object-fit: fill;
 }
