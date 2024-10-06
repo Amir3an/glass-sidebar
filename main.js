@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const body = document.querySelector("body");
+  const aside = document.querySelector("aside");
   const inp = document.querySelector(".inp");
+  const btn = document.querySelector(".close");
 
   function lightToDark() {
     if (inp.checked) {
@@ -11,4 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   inp.addEventListener("change", lightToDark);
+
+  btn.addEventListener("click", () => {
+    if (aside.style.width == "240px") {
+      aside.style.width = "90px";
+    } else {
+      aside.style.width = "240px";
+    }
+  });
 });
