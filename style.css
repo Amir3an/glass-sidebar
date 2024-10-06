@@ -175,3 +175,7 @@ input:checked + .slider:before {
   object-fit: fill;
   cursor: pointer;
 }
+
+.close > img {
+  transition: transform 0.5s;
+}
